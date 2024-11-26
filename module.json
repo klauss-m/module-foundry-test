@@ -1,5 +1,5 @@
 {
-  "id": "module-foundry-test",
+  "id": "foundrytest",
   "title": "FoundryVTT Test Module",
   "description": "A simple module to test some stuff on FoundryVTT.",
   "version": "0.0.1",
