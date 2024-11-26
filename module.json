@@ -1,8 +1,8 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
+  "id": "module-foundry-test",
+  "title": "FoundryVTT Test Module",
+  "description": "A simple module to test some stuff on FoundryVTT.",
+  "version": "0.0.1",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
@@ -12,24 +12,17 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Klauss Marques Paiva",
+      "url": "https://github.com/klauss-m"
     }
   ],
   "relationships": {
     "systems": [],
     "requires": []
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
+  "esmodules": ["scripts/module.js"],
+  "scripts": ["scripts/lib/lib.js"],
+  "styles": ["styles/module.css"],
   "languages": [
     {
       "lang": "en",
@@ -37,9 +30,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "https://github.com/klauss-m/module-foundry-test",
+  "manifest": "https://github.com/klauss-m/module-foundry-test/blob/master/module.json",
+  "download": "https://github.com/klauss-m/module-foundry-test/blob/master/module.json",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
